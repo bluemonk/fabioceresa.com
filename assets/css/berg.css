@@ -2953,3 +2953,7 @@ footer.footer .copyright p {
     border-radius: 3px;
     box-shadow: 0 3px 0 #970837;
 }
+
+#contact-picture:hover {
+    cursor: pointer;
+}
