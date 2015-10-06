@@ -2954,6 +2954,25 @@ footer.footer .copyright p {
     box-shadow: 0 3px 0 #970837;
 }
 
-#contact-picture:hover {
-    cursor: pointer;
+.profile-picture:hover > h4 {
+    margin-top: 100px;
+    opacity: 1;
+}
+
+.profile-picture > h4 {
+    display: block;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    margin-top: -48px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
