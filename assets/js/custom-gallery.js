@@ -18,6 +18,54 @@ $('#contact-picture').on('click', function(event) {
   });
 });
 
+$('#guglielmo').on('click', function(event) {
+  event.preventDefault();
+  blueimp.Gallery([
+    'assets/images/guglielmo/01.jpg',
+    'assets/images/guglielmo/02.jpg',
+    'assets/images/guglielmo/03.jpg',
+    'assets/images/guglielmo/04.jpg',
+    'assets/images/guglielmo/05.jpg',
+    'assets/images/guglielmo/06.jpg',
+    'assets/images/guglielmo/07.jpg',
+    'assets/images/guglielmo/08.jpg',
+    'assets/images/guglielmo/09.jpg',
+    'assets/images/guglielmo/10.jpg',
+    'assets/images/guglielmo/11.jpg',
+    'assets/images/guglielmo/12.jpg',
+    'assets/images/guglielmo/13.jpg',
+    'assets/images/guglielmo/14.jpg',
+    'assets/images/guglielmo/15.jpg',
+    'assets/images/guglielmo/16.jpg',
+    'assets/images/guglielmo/17.jpg',
+    'assets/images/guglielmo/18.jpg',
+    'assets/images/guglielmo/19.jpg',
+    'assets/images/guglielmo/20.jpg',
+    'assets/images/guglielmo/21.jpg',
+    'assets/images/guglielmo/22.jpg',
+    'assets/images/guglielmo/23.jpg',
+    'assets/images/guglielmo/24.jpg',
+    'assets/images/guglielmo/25.jpg',
+    'assets/images/guglielmo/26.jpg',
+    'assets/images/guglielmo/27.jpg',
+    'assets/images/guglielmo/28.jpg',
+    'assets/images/guglielmo/29.jpg',
+    'assets/images/guglielmo/30.jpg',
+    'assets/images/guglielmo/31.jpg',
+    'assets/images/guglielmo/32.jpg',
+    'assets/images/guglielmo/33.jpg',
+    'assets/images/guglielmo/34.jpg',
+    'assets/images/guglielmo/35.jpg',
+    'assets/images/guglielmo/36.jpg',
+    'assets/images/guglielmo/37.jpg',
+    'assets/images/guglielmo/38.jpg'
+  ], {
+    fullScreen: true,
+    useBootstrapModal: false
+  });
+});
+
+
 $('#puritani').on('click', function(event) {
   event.preventDefault();
   blueimp.Gallery([
