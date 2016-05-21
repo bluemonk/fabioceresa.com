@@ -48,7 +48,6 @@ $('#guglielmo').on('click', function(event) {
     'assets/images/guglielmo/25.jpg',
     'assets/images/guglielmo/26.jpg',
     'assets/images/guglielmo/27.jpg',
-    'assets/images/guglielmo/28.jpg',
     'assets/images/guglielmo/29.jpg',
     'assets/images/guglielmo/30.jpg',
     'assets/images/guglielmo/31.jpg',
