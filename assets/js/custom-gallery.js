@@ -319,6 +319,70 @@ $('#traviata').on('click', function(event) {
   });
 });
 
+$('#orlando').on('click', function(event) {
+  event.preventDefault();
+  blueimp.Gallery([
+    'assets/images/orlando/01.jpg',
+    'assets/images/orlando/02.jpg',
+    'assets/images/orlando/03.jpg',
+    'assets/images/orlando/04.jpg',
+    'assets/images/orlando/05.jpg',
+    'assets/images/orlando/06.jpg',
+    'assets/images/orlando/07.jpg',
+    'assets/images/orlando/08.jpg',
+    'assets/images/orlando/09.jpg',
+    'assets/images/orlando/10.jpg',
+    'assets/images/orlando/11.jpg',
+    'assets/images/orlando/12.jpg',
+    'assets/images/orlando/13.jpg',
+    'assets/images/orlando/14.jpg',
+    'assets/images/orlando/15.jpg',
+    'assets/images/orlando/16.jpg',
+    'assets/images/orlando/17.jpg',
+    'assets/images/orlando/18.jpg',
+    'assets/images/orlando/19.jpg',
+    'assets/images/orlando/20.jpg',
+    'assets/images/orlando/21.jpg',
+    'assets/images/orlando/22.jpg',
+    'assets/images/orlando/23.jpg',
+    'assets/images/orlando/24.jpg',
+    'assets/images/orlando/25.jpg',
+    'assets/images/orlando/26.jpg',
+    'assets/images/orlando/27.jpg',
+    'assets/images/orlando/28.jpg',
+    'assets/images/orlando/29.jpg',
+    'assets/images/orlando/30.jpg',
+    'assets/images/orlando/31.jpg',
+    'assets/images/orlando/32.jpg',
+    'assets/images/orlando/33.jpg',
+    'assets/images/orlando/34.jpg',
+    'assets/images/orlando/35.jpg',
+    'assets/images/orlando/36.jpg',
+    'assets/images/orlando/37.jpg',
+    'assets/images/orlando/38.jpg',
+    'assets/images/orlando/39.jpg',
+    'assets/images/orlando/40.jpg',
+    'assets/images/orlando/41.jpg',
+    'assets/images/orlando/42.jpg',
+    'assets/images/orlando/43.jpg',
+    'assets/images/orlando/44.jpg',
+    'assets/images/orlando/45.jpg',
+    'assets/images/orlando/46.jpg',
+    'assets/images/orlando/47.jpg',
+    'assets/images/orlando/48.jpg',
+    'assets/images/orlando/49.jpg',
+    'assets/images/orlando/50.jpg',
+    'assets/images/orlando/51.jpg',
+    'assets/images/orlando/52.jpg',
+    'assets/images/orlando/53.jpg',
+    'assets/images/orlando/54.jpg',
+    'assets/images/orlando/55.jpg'
+  ], {
+    fullScreen: true,
+    useBootstrapModal: false
+  });
+});
+
 
 
 
