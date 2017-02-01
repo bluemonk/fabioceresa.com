@@ -1,4 +1,3 @@
-
 $('#contact-picture').on('click', function(event) {
   event.preventDefault();
   blueimp.Gallery([
@@ -377,6 +376,62 @@ $('#orlando').on('click', function(event) {
     'assets/images/orlando/53.jpg',
     'assets/images/orlando/54.jpg',
     'assets/images/orlando/55.jpg'
+  ], {
+    fullScreen: true,
+    useBootstrapModal: false
+  });
+});
+
+$('#rigoletto').on('click', function(event) {
+  event.preventDefault();
+  blueimp.Gallery([
+    'assets/images/rigoletto/01.jpg',
+    'assets/images/rigoletto/02.jpg',
+    'assets/images/rigoletto/03.jpg',
+    'assets/images/rigoletto/04.jpg',
+    'assets/images/rigoletto/05.jpg',
+    'assets/images/rigoletto/06.jpg',
+    'assets/images/rigoletto/07.jpg',
+    'assets/images/rigoletto/08.jpg',
+    'assets/images/rigoletto/09.jpg',
+    'assets/images/rigoletto/10.jpg',
+    'assets/images/rigoletto/11.jpg',
+    'assets/images/rigoletto/12.jpg',
+    'assets/images/rigoletto/13.jpg',
+    'assets/images/rigoletto/14.jpg',
+    'assets/images/rigoletto/15.jpg',
+    'assets/images/rigoletto/16.jpg',
+    'assets/images/rigoletto/17.jpg',
+    'assets/images/rigoletto/18.jpg'
+  ], {
+    fullScreen: true,
+    useBootstrapModal: false
+  });
+});
+
+$('#maria').on('click', function(event) {
+  event.preventDefault();
+  blueimp.Gallery([
+    'assets/images/maria/01.jpg',
+    'assets/images/maria/02.jpg',
+    'assets/images/maria/03.jpg',
+    'assets/images/maria/04.jpg',
+    'assets/images/maria/05.jpg',
+    'assets/images/maria/06.jpg',
+    'assets/images/maria/07.jpg',
+    'assets/images/maria/08.jpg',
+    'assets/images/maria/09.jpg',
+    'assets/images/maria/10.jpg',
+    'assets/images/maria/11.jpg',
+    'assets/images/maria/12.jpg',
+    'assets/images/maria/13.jpg',
+    'assets/images/maria/14.jpg',
+    'assets/images/maria/15.jpg',
+    'assets/images/maria/16.jpg',
+    'assets/images/maria/17.jpg',
+    'assets/images/maria/18.jpg',
+    'assets/images/maria/19.jpg',
+    'assets/images/maria/20.jpg'
   ], {
     fullScreen: true,
     useBootstrapModal: false
