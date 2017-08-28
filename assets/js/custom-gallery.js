@@ -438,6 +438,35 @@ $('#maria').on('click', function(event) {
   });
 });
 
+$('#furioso').on('click', function(event) {
+  event.preventDefault();
+  blueimp.Gallery([
+    'assets/images/furioso/01.jpg',
+    'assets/images/furioso/02.jpg',
+    'assets/images/furioso/03.jpg',
+    'assets/images/furioso/04.jpg',
+    'assets/images/furioso/05.jpg',
+    'assets/images/furioso/06.jpg',
+    'assets/images/furioso/07.jpg',
+    'assets/images/furioso/08.jpg',
+    'assets/images/furioso/09.jpg',
+    'assets/images/furioso/10.jpg',
+    'assets/images/furioso/11.jpg',
+    'assets/images/furioso/12.jpg',
+    'assets/images/furioso/13.jpg',
+    'assets/images/furioso/14.jpg',
+    'assets/images/furioso/15.jpg',
+    'assets/images/furioso/16.jpg',
+    'assets/images/furioso/17.jpg',
+    'assets/images/furioso/18.jpg',
+    'assets/images/furioso/19.jpg',
+    'assets/images/furioso/20.jpg'
+  ], {
+    fullScreen: true,
+    useBootstrapModal: false
+  });
+});
+
 
 
 
